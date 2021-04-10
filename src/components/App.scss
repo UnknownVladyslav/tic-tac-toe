@@ -1,0 +1,32 @@
+html {
+  background: linear-gradient(#ceecec, #0996c8) no-repeat;
+}
+
+.appWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.gameBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 500px;
+  max-height: 500px;
+  margin-bottom: 200px;
+  padding: 10px;
+
+  h2 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    transition: all .4s ease;
+    text-align: center;
+    &:hover {
+      transform: scale(1.05)
+    }
+  }
+}
